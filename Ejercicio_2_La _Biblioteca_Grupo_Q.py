@@ -1,3 +1,10 @@
+# Grupo-Q 
+# Marc Martínez Arias
+# Pedro Barros Bobadilla
+# URL: https://github.com/Code-Cram/PROGRAMACION_CONCURRENTE_Y_DISTRIBUIDA_Grupo_Q
+
+
+
 """
 Una biblioteca tiene un sistema de préstamo de libros, y ofrece a sus usuarios 
 la posibilidad de coger prestado o devolver un libro. Los libros están identificados por un número del 1 al 10.
