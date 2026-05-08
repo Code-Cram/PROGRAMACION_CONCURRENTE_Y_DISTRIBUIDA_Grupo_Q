@@ -1,0 +1,287 @@
+2026-05-04 15:22:57 | SIMULATOR            | INFO     | 
+============================================================
+SIMULACIÓN DE ATAQUE SYBIL EN RED P2P
+============================================================
+Configuración:
+  - Nodos legítimos: 5
+  - Identidades Sybil: 20
+  - Max vecinos/nodo: 3
+  - Defensa IP limiting: True
+  - Defensa Reputación: True
+  - Defensa PoW: False
+============================================================
+2026-05-04 15:22:57 | SIMULATOR            | INFO     | 
+[FASE 1] Configurando red P2P...
+2026-05-04 15:22:57 | SIMULATOR            | INFO     | Iniciando Bootstrap Node...
+2026-05-04 15:22:58 | SIMULATOR            | INFO     | Iniciando 5 nodos legítimos...
+2026-05-04 15:22:59 | SIMULATOR            | INFO     | ✓ 5 nodos iniciados
+2026-05-04 15:23:01 | SIMULATOR            | INFO     | 
+[FASE 2] Conectando nodos a la red...
+2026-05-04 15:23:01 | SIMULATOR            | INFO     | Conectando nodo 1/5...
+2026-05-04 15:23:01 | SIMULATOR            | INFO     | Conectando nodo 2/5...
+2026-05-04 15:23:02 | SIMULATOR            | INFO     | Conectando nodo 3/5...
+2026-05-04 15:23:02 | SIMULATOR            | INFO     | Conectando nodo 4/5...
+2026-05-04 15:23:03 | SIMULATOR            | INFO     | Conectando nodo 5/5...
+2026-05-04 15:23:03 | SIMULATOR            | INFO     | ✓ Todos los nodos conectados al bootstrap
+2026-05-04 15:23:03 | SIMULATOR            | INFO     | Esperando estabilización de red (10s)...
+2026-05-04 15:23:15 | SIMULATOR            | WARNING  | 
+[FASE 3] LANZANDO ATAQUE SYBIL...
+2026-05-04 15:23:24 | SIMULATOR            | INFO     | 
+[FASE 4] Analizando impacto del ataque...
+2026-05-04 15:23:24 | SIMULATOR            | ERROR    | 
+❌ Error en simulación: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "/home/claude/sybil_p2p_project/simulation/simulator.py", line 251, in run_full_simulation
+    self.analyze_results()
+  File "/home/claude/sybil_p2p_project/simulation/simulator.py", line 117, in analyze_results
+    self._print_network_status("RED DESPUÉS DEL ATAQUE")
+  File "/home/claude/sybil_p2p_project/simulation/simulator.py", line 127, in _print_network_status
+    print(f"\n{'='*60}")
+BrokenPipeError: [Errno 32] Broken pipe
+2026-05-04 15:23:24 | SIMULATOR            | INFO     | 
+Limpiando recursos...
+2026-05-04 15:23:24 | SIMULATOR            | INFO     | ✓ Simulación finalizada correctamente
+2026-05-04 15:23:30 | SIMULATOR            | INFO     | 
+============================================================
+SIMULACIÓN DE ATAQUE SYBIL EN RED P2P
+============================================================
+Configuración:
+  - Nodos legítimos: 5
+  - Identidades Sybil: 20
+  - Max vecinos/nodo: 3
+  - Defensa IP limiting: True
+  - Defensa Reputación: True
+  - Defensa PoW: False
+============================================================
+2026-05-04 15:23:30 | SIMULATOR            | INFO     | 
+[FASE 1] Configurando red P2P...
+2026-05-04 15:23:30 | SIMULATOR            | INFO     | Iniciando Bootstrap Node...
+2026-05-04 15:23:31 | SIMULATOR            | INFO     | Iniciando 5 nodos legítimos...
+2026-05-04 15:23:32 | SIMULATOR            | INFO     | ✓ 5 nodos iniciados
+2026-05-04 15:23:34 | SIMULATOR            | INFO     | 
+[FASE 2] Conectando nodos a la red...
+2026-05-04 15:23:34 | SIMULATOR            | INFO     | Conectando nodo 1/5...
+2026-05-04 15:23:35 | SIMULATOR            | INFO     | Conectando nodo 2/5...
+2026-05-04 15:23:35 | SIMULATOR            | INFO     | Conectando nodo 3/5...
+2026-05-04 15:23:36 | SIMULATOR            | INFO     | Conectando nodo 4/5...
+2026-05-04 15:23:36 | SIMULATOR            | INFO     | Conectando nodo 5/5...
+2026-05-04 15:23:37 | SIMULATOR            | INFO     | ✓ Todos los nodos conectados al bootstrap
+2026-05-04 15:23:37 | SIMULATOR            | INFO     | Esperando estabilización de red (10s)...
+2026-05-04 15:23:49 | SIMULATOR            | WARNING  | 
+[FASE 3] LANZANDO ATAQUE SYBIL...
+2026-05-04 15:23:58 | SIMULATOR            | INFO     | 
+[FASE 4] Analizando impacto del ataque...
+2026-05-04 15:23:58 | SIMULATOR            | INFO     | 
+╔═══════════════════════════════════════════════════════════════════╗
+║              REPORTE DE SIMULACIÓN - ATAQUE SYBIL                 ║
+╠═══════════════════════════════════════════════════════════════════╣
+║  CONFIGURACIÓN                                                    ║
+║    Nodos legítimos:              5                            ║
+║    Identidades Sybil:           20                            ║
+║    Max vecinos/nodo:             3                            ║
+║    IP Limiting:               ACTIVO                        ║
+║    Sistema Reputación:        ACTIVO                        ║
+║    Proof of Work:             INACTIVO                        ║
+╠═══════════════════════════════════════════════════════════════════╣
+║  RESULTADOS DEL ATAQUE                                            ║
+║    Intentos de conexión:        20                            ║
+║    Conexiones exitosas:          9 ( 45.0%)                   ║
+║    Conexiones rechazadas:       11 ( 55.0%)                   ║
+╠═══════════════════════════════════════════════════════════════════╣
+║  IMPACTO EN LA RED                                                ║
+║    Vecinos promedio/nodo:      2.00                           ║
+║    Saturación de red:          66.7%                          ║
+║    Sybil detectados:            11                            ║
+║    Conexiones rechazadas:       11                            ║
+╠═══════════════════════════════════════════════════════════════════╣
+║  VEREDICTO: ❌ DEFENSA INSUFICIENTE - Red comprometida          ║
+╚═══════════════════════════════════════════════════════════════════╝
+2026-05-04 15:23:58 | SIMULATOR            | INFO     | ✓ Métricas guardadas en logs/metrics_*.json
+2026-05-04 15:23:58 | SIMULATOR            | INFO     | 
+✓ SIMULACIÓN COMPLETADA
+2026-05-04 15:23:58 | SIMULATOR            | INFO     | 
+Limpiando recursos...
+2026-05-04 15:23:58 | SIMULATOR            | INFO     | ✓ Simulación finalizada correctamente
+2026-05-08 03:54:00 | SIMULATOR            | INFO     | 
+============================================================
+SIMULACIÓN DE ATAQUE SYBIL EN RED P2P
+============================================================
+Configuración:
+  - Nodos legítimos: 5
+  - Identidades Sybil: 20
+  - Max vecinos/nodo: 3
+  - Defensa IP limiting: True
+  - Defensa Reputación: True
+  - Defensa PoW: False
+============================================================
+2026-05-08 03:54:00 | SIMULATOR            | INFO     | 
+[FASE 1] Configurando red P2P...
+2026-05-08 03:54:00 | SIMULATOR            | INFO     | Iniciando Bootstrap Node...
+2026-05-08 03:54:01 | SIMULATOR            | INFO     | Iniciando 5 nodos legítimos...
+2026-05-08 03:54:02 | SIMULATOR            | INFO     | ✓ 5 nodos iniciados
+2026-05-08 03:54:04 | SIMULATOR            | INFO     | 
+[FASE 2] Conectando nodos a la red...
+2026-05-08 03:54:04 | SIMULATOR            | INFO     | Conectando nodo 1/5...
+2026-05-08 03:54:05 | SIMULATOR            | INFO     | Conectando nodo 2/5...
+2026-05-08 03:54:05 | SIMULATOR            | INFO     | Conectando nodo 3/5...
+2026-05-08 03:54:06 | SIMULATOR            | INFO     | Conectando nodo 4/5...
+2026-05-08 03:54:06 | SIMULATOR            | INFO     | Conectando nodo 5/5...
+2026-05-08 03:54:07 | SIMULATOR            | INFO     | ✓ Todos los nodos conectados al bootstrap
+2026-05-08 03:54:07 | SIMULATOR            | INFO     | Esperando estabilización de red (10s)...
+2026-05-08 03:54:19 | SIMULATOR            | WARNING  | 
+[FASE 3] LANZANDO ATAQUE SYBIL...
+2026-05-08 03:54:28 | SIMULATOR            | INFO     | 
+[FASE 4] Analizando impacto del ataque...
+2026-05-08 03:54:28 | SIMULATOR            | INFO     | 
+╔═══════════════════════════════════════════════════════════════════╗
+║              REPORTE DE SIMULACIÓN - ATAQUE SYBIL                 ║
+╠═══════════════════════════════════════════════════════════════════╣
+║  CONFIGURACIÓN                                                    ║
+║    Nodos legítimos:              5                            ║
+║    Identidades Sybil:           20                            ║
+║    Max vecinos/nodo:             3                            ║
+║    IP Limiting:               ACTIVO                        ║
+║    Sistema Reputación:        ACTIVO                        ║
+║    Proof of Work:             INACTIVO                        ║
+╠═══════════════════════════════════════════════════════════════════╣
+║  RESULTADOS DEL ATAQUE                                            ║
+║    Intentos de conexión:        20                            ║
+║    Conexiones exitosas:          9 ( 45.0%)                   ║
+║    Conexiones rechazadas:       11 ( 55.0%)                   ║
+╠═══════════════════════════════════════════════════════════════════╣
+║  IMPACTO EN LA RED                                                ║
+║    Vecinos promedio/nodo:      2.00                           ║
+║    Saturación de red:          66.7%                          ║
+║    Sybil detectados:            11                            ║
+║    Conexiones rechazadas:       11                            ║
+╠═══════════════════════════════════════════════════════════════════╣
+║  VEREDICTO: ❌ DEFENSA INSUFICIENTE - Red comprometida          ║
+╚═══════════════════════════════════════════════════════════════════╝
+2026-05-08 03:54:28 | SIMULATOR            | INFO     | ✓ Métricas guardadas en logs/metrics_*.json
+2026-05-08 03:54:28 | SIMULATOR            | INFO     | 
+✓ SIMULACIÓN COMPLETADA
+2026-05-08 03:54:28 | SIMULATOR            | INFO     | 
+Limpiando recursos...
+2026-05-08 03:54:28 | SIMULATOR            | INFO     | ✓ Simulación finalizada correctamente
+2026-05-08 03:56:00 | SIMULATOR            | INFO     | 
+============================================================
+SIMULACIÓN DE ATAQUE SYBIL EN RED P2P
+============================================================
+Configuración:
+  - Nodos legítimos: 5
+  - Identidades Sybil: 20
+  - Max vecinos/nodo: 3
+  - Defensa IP limiting: True
+  - Defensa Reputación: True
+  - Defensa PoW: False
+============================================================
+2026-05-08 03:56:00 | SIMULATOR            | INFO     | 
+[FASE 1] Configurando red P2P...
+2026-05-08 03:56:00 | SIMULATOR            | INFO     | Iniciando Bootstrap Node...
+2026-05-08 03:56:01 | SIMULATOR            | INFO     | Iniciando 5 nodos legítimos...
+2026-05-08 03:56:02 | SIMULATOR            | INFO     | ✓ 5 nodos iniciados
+2026-05-08 03:56:04 | SIMULATOR            | INFO     | 
+[FASE 2] Conectando nodos a la red...
+2026-05-08 03:56:04 | SIMULATOR            | INFO     | Conectando nodo 1/5...
+2026-05-08 03:56:04 | SIMULATOR            | INFO     | Conectando nodo 2/5...
+2026-05-08 03:56:05 | SIMULATOR            | INFO     | Conectando nodo 3/5...
+2026-05-08 03:56:05 | SIMULATOR            | INFO     | Conectando nodo 4/5...
+2026-05-08 03:56:06 | SIMULATOR            | INFO     | Conectando nodo 5/5...
+2026-05-08 03:56:06 | SIMULATOR            | INFO     | ✓ Todos los nodos conectados al bootstrap
+2026-05-08 03:56:06 | SIMULATOR            | INFO     | Esperando estabilización de red (10s)...
+2026-05-08 03:56:18 | SIMULATOR            | WARNING  | 
+[FASE 3] LANZANDO ATAQUE SYBIL...
+2026-05-08 03:56:28 | SIMULATOR            | INFO     | 
+[FASE 4] Analizando impacto del ataque...
+2026-05-08 03:56:28 | SIMULATOR            | INFO     | 
+╔═══════════════════════════════════════════════════════════════════╗
+║              REPORTE DE SIMULACIÓN - ATAQUE SYBIL                 ║
+╠═══════════════════════════════════════════════════════════════════╣
+║  CONFIGURACIÓN                                                    ║
+║    Nodos legítimos:              5                            ║
+║    Identidades Sybil:           20                            ║
+║    Max vecinos/nodo:             3                            ║
+║    IP Limiting:               ACTIVO                        ║
+║    Sistema Reputación:        ACTIVO                        ║
+║    Proof of Work:             INACTIVO                        ║
+╠═══════════════════════════════════════════════════════════════════╣
+║  RESULTADOS DEL ATAQUE                                            ║
+║    Intentos de conexión:        20                            ║
+║    Conexiones exitosas:          8 ( 40.0%)                   ║
+║    Conexiones rechazadas:       12 ( 60.0%)                   ║
+╠═══════════════════════════════════════════════════════════════════╣
+║  IMPACTO EN LA RED                                                ║
+║    Vecinos promedio/nodo:      1.80                           ║
+║    Saturación de red:          60.0%                          ║
+║    Sybil detectados:            12                            ║
+║    Conexiones rechazadas:       12                            ║
+╠═══════════════════════════════════════════════════════════════════╣
+║  VEREDICTO: ❌ DEFENSA INSUFICIENTE - Red comprometida          ║
+╚═══════════════════════════════════════════════════════════════════╝
+2026-05-08 03:56:28 | SIMULATOR            | INFO     | ✓ Métricas guardadas en logs/metrics_*.json
+2026-05-08 03:56:28 | SIMULATOR            | INFO     | 
+✓ SIMULACIÓN COMPLETADA
+2026-05-08 03:56:28 | SIMULATOR            | INFO     | 
+Limpiando recursos...
+2026-05-08 03:56:28 | SIMULATOR            | INFO     | ✓ Simulación finalizada correctamente
+2026-05-08 03:58:15 | SIMULATOR            | INFO     | 
+============================================================
+SIMULACIÓN DE ATAQUE SYBIL EN RED P2P
+============================================================
+Configuración:
+  - Nodos legítimos: 5
+  - Identidades Sybil: 20
+  - Max vecinos/nodo: 3
+  - Defensa IP limiting: True
+  - Defensa Reputación: True
+  - Defensa PoW: False
+============================================================
+2026-05-08 03:58:15 | SIMULATOR            | INFO     | 
+[FASE 1] Configurando red P2P...
+2026-05-08 03:58:15 | SIMULATOR            | INFO     | Iniciando Bootstrap Node...
+2026-05-08 03:58:16 | SIMULATOR            | INFO     | Iniciando 5 nodos legítimos...
+2026-05-08 03:58:17 | SIMULATOR            | INFO     | ✓ 5 nodos iniciados
+2026-05-08 03:58:19 | SIMULATOR            | INFO     | 
+[FASE 2] Conectando nodos a la red...
+2026-05-08 03:58:19 | SIMULATOR            | INFO     | Conectando nodo 1/5...
+2026-05-08 03:58:19 | SIMULATOR            | INFO     | Conectando nodo 2/5...
+2026-05-08 03:58:20 | SIMULATOR            | INFO     | Conectando nodo 3/5...
+2026-05-08 03:58:20 | SIMULATOR            | INFO     | Conectando nodo 4/5...
+2026-05-08 03:58:21 | SIMULATOR            | INFO     | Conectando nodo 5/5...
+2026-05-08 03:58:21 | SIMULATOR            | INFO     | ✓ Todos los nodos conectados al bootstrap
+2026-05-08 03:58:21 | SIMULATOR            | INFO     | Esperando estabilización de red (10s)...
+2026-05-08 03:58:33 | SIMULATOR            | WARNING  | 
+[FASE 3] LANZANDO ATAQUE SYBIL...
+2026-05-08 03:58:42 | SIMULATOR            | INFO     | 
+[FASE 4] Analizando impacto del ataque...
+2026-05-08 03:58:42 | SIMULATOR            | INFO     | 
+╔═══════════════════════════════════════════════════════════════════╗
+║              REPORTE DE SIMULACIÓN - ATAQUE SYBIL                 ║
+╠═══════════════════════════════════════════════════════════════════╣
+║  CONFIGURACIÓN                                                    ║
+║    Nodos legítimos:              5                            ║
+║    Identidades Sybil:           20                            ║
+║    Max vecinos/nodo:             3                            ║
+║    IP Limiting:               ACTIVO                        ║
+║    Sistema Reputación:        ACTIVO                        ║
+║    Proof of Work:             INACTIVO                        ║
+╠═══════════════════════════════════════════════════════════════════╣
+║  RESULTADOS DEL ATAQUE                                            ║
+║    Intentos de conexión:        20                            ║
+║    Conexiones exitosas:          9 ( 45.0%)                   ║
+║    Conexiones rechazadas:       11 ( 55.0%)                   ║
+╠═══════════════════════════════════════════════════════════════════╣
+║  IMPACTO EN LA RED                                                ║
+║    Vecinos promedio/nodo:      2.00                           ║
+║    Saturación de red:          66.7%                          ║
+║    Sybil detectados:            11                            ║
+║    Conexiones rechazadas:       11                            ║
+╠═══════════════════════════════════════════════════════════════════╣
+║  VEREDICTO: ❌ DEFENSA INSUFICIENTE - Red comprometida          ║
+╚═══════════════════════════════════════════════════════════════════╝
+2026-05-08 03:58:42 | SIMULATOR            | INFO     | ✓ Métricas guardadas en logs/metrics_*.json
+2026-05-08 03:58:42 | SIMULATOR            | INFO     | 
+✓ SIMULACIÓN COMPLETADA
+2026-05-08 03:58:42 | SIMULATOR            | INFO     | 
+Limpiando recursos...
+2026-05-08 03:58:42 | SIMULATOR            | INFO     | ✓ Simulación finalizada correctamente

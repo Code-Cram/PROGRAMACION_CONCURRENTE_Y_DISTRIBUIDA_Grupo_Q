@@ -1,0 +1,99 @@
+2026-05-04 15:23:15 | ATTACKER             | WARNING  | 
+╔═══════════════════════════════════════════════════╗
+║  ATACANTE SYBIL INICIALIZADO                                                                                        ║
+║  Identidades a generar:   20                                                                                           ║
+╚═══════════════════════════════════════════════════╝
+2026-05-04 15:23:15 | ATTACKER             | INFO     | Generando 20 identidades Sybil...
+2026-05-04 15:23:15 | ATTACKER             | INFO     | ✓ 20 identidades creadas | Primeras 3: ['9d485caf', '85d05989', '77832217']
+2026-05-04 15:23:17 | ATTACKER             | WARNING  |  INICIANDO ATAQUE SYBIL 
+2026-05-04 15:23:17 | ATTACKER             | INFO     | Esperando finalización de 20 hilos de ataque...
+2026-05-04 15:23:17 | ATTACKER             | WARNING  | 
+╔═══════════════════════════════════════════════════════════╗
+║               REPORTE DE ATAQUE SYBIL                                                                                                            ║
+╠═══════════════════════════════════════════════════════════╣
+║  Identidades generadas:       20                                                                                                             ║
+║  Conexiones exitosas:          8  ( 40.0%)                                                                                               ║
+║  Conexiones rechazadas:       12  ( 60.0%)                                                                                           ║
+╠═══════════════════════════════════════════════════════════╣
+║  EVALUACIÓN DEL ATAQUE:                                                                                                                         ║
+║    ATAQUE PARCIAL - Defensas débiles                                                                                                  ║
+╚═══════════════════════════════════════════════════════════╝
+2026-05-04 15:23:49 | ATTACKER             | WARNING  | 
+╔═══════════════════════════════════════════════════╗
+║  ATACANTE SYBIL INICIALIZADO                                                                                        ║
+║  Identidades a generar:   20                                                                                           ║
+╚═══════════════════════════════════════════════════╝
+2026-05-04 15:23:49 | ATTACKER             | INFO     | Generando 20 identidades Sybil...
+2026-05-04 15:23:49 | ATTACKER             | INFO     | ✓ 20 identidades creadas | Primeras 3: ['88e9ff69', 'fdbf446f', '65a974d3']
+2026-05-04 15:23:51 | ATTACKER             | WARNING  |  INICIANDO ATAQUE SYBIL 
+2026-05-04 15:23:51 | ATTACKER             | INFO     | Esperando finalización de 20 hilos de ataque...
+2026-05-04 15:23:51 | ATTACKER             | WARNING  | 
+╔═══════════════════════════════════════════════════════════╗
+║               REPORTE DE ATAQUE SYBIL                                                                                                            ║
+╠═══════════════════════════════════════════════════════════╣
+║  Identidades generadas:       20                                                                                                             ║
+║  Conexiones exitosas:          9  ( 45.0%)                                                                                               ║
+║  Conexiones rechazadas:       11  ( 55.0%)                                                                                            ║
+╠═══════════════════════════════════════════════════════════╣
+║  EVALUACIÓN DEL ATAQUE:                                                                                                                          ║
+║    ATAQUE PARCIAL - Defensas débiles                                                                                                    ║
+╚═══════════════════════════════════════════════════════════╝
+2026-05-08 03:54:19 | ATTACKER             | WARNING  | 
+╔═══════════════════════════════════════════════════╗
+║  ATACANTE SYBIL INICIALIZADO                                                                                        ║
+║  Identidades a generar:   20                                                                                            ║
+╚═══════════════════════════════════════════════════╝
+2026-05-08 03:54:19 | ATTACKER             | INFO     | Generando 20 identidades Sybil...
+2026-05-08 03:54:19 | ATTACKER             | INFO     | ✓ 20 identidades creadas | Primeras 3: ['c7ac3c69', 'f24a4760', '7c5a5178']
+2026-05-08 03:54:21 | ATTACKER             | WARNING  |  INICIANDO ATAQUE SYBIL 
+2026-05-08 03:54:21 | ATTACKER             | INFO     | Esperando finalización de 20 hilos de ataque...
+2026-05-08 03:54:21 | ATTACKER             | WARNING  | 
+╔═══════════════════════════════════════════════════════════╗
+║               REPORTE DE ATAQUE SYBIL                     ║
+╠═══════════════════════════════════════════════════════════╣
+║  Identidades generadas:       20                      ║
+║  Conexiones exitosas:          9  ( 45.0%)           ║
+║  Conexiones rechazadas:       11  ( 55.0%)           ║
+╠═══════════════════════════════════════════════════════════╣
+║  EVALUACIÓN DEL ATAQUE:                                   ║
+║    ATAQUE PARCIAL - Defensas débiles              ║
+╚═══════════════════════════════════════════════════════════╝
+2026-05-08 03:56:18 | ATTACKER             | WARNING  | 
+╔═══════════════════════════════════════════════════╗
+║  ATACANTE SYBIL INICIALIZADO                    ║
+║  Identidades a generar:   20                    ║
+╚═══════════════════════════════════════════════════╝
+2026-05-08 03:56:18 | ATTACKER             | INFO     | Generando 20 identidades Sybil...
+2026-05-08 03:56:18 | ATTACKER             | INFO     | ✓ 20 identidades creadas | Primeras 3: ['f6eb1843', 'a8de5fef', 'ef9cbcbf']
+2026-05-08 03:56:20 | ATTACKER             | WARNING  |  INICIANDO ATAQUE SYBIL 
+2026-05-08 03:56:21 | ATTACKER             | INFO     | Esperando finalización de 20 hilos de ataque...
+2026-05-08 03:56:21 | ATTACKER             | WARNING  | 
+╔═══════════════════════════════════════════════════════════╗
+║               REPORTE DE ATAQUE SYBIL                     ║
+╠═══════════════════════════════════════════════════════════╣
+║  Identidades generadas:       20                      ║
+║  Conexiones exitosas:          8  ( 40.0%)           ║
+║  Conexiones rechazadas:       12  ( 60.0%)           ║
+╠═══════════════════════════════════════════════════════════╣
+║  EVALUACIÓN DEL ATAQUE:                                   ║
+║    ATAQUE PARCIAL - Defensas débiles              ║
+╚═══════════════════════════════════════════════════════════╝
+2026-05-08 03:58:33 | ATTACKER             | WARNING  | ╔═══════════════════════════════════════════════════╗
+║  ATACANTE SYBIL INICIALIZADO                    ║
+║  Identidades a generar:   20                    ║
+╚═══════════════════════════════════════════════════╝
+2026-05-08 03:58:33 | ATTACKER             | INFO     | Generando 20 identidades Sybil...
+2026-05-08 03:58:33 | ATTACKER             | INFO     | ✓ 20 identidades creadas | Primeras 3: ['3f0fe830', '661d4125', 'b6134f76']
+2026-05-08 03:58:35 | ATTACKER             | WARNING  |  INICIANDO ATAQUE SYBIL 
+2026-05-08 03:58:35 | ATTACKER             | INFO     | Esperando finalización de 20 hilos de ataque...
+2026-05-08 03:58:35 | ATTACKER             | WARNING  | 
+╔═══════════════════════════════════════════════════════════╗
+║               REPORTE DE ATAQUE SYBIL                     ║
+╠═══════════════════════════════════════════════════════════╣
+║  Identidades generadas:       20                      ║
+║  Conexiones exitosas:          9  ( 45.0%)           ║
+║  Conexiones rechazadas:       11  ( 55.0%)           ║
+╠═══════════════════════════════════════════════════════════╣
+║  EVALUACIÓN DEL ATAQUE:                                   ║
+║    ATAQUE PARCIAL - Defensas débiles              ║
+╚═══════════════════════════════════════════════════════════╝

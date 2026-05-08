@@ -1,0 +1,157 @@
+{
+  "timestamp": "2026-05-08T03:58:42.960185",
+  "config": {
+    "num_legitimate_nodes": 5,
+    "sybil_identities": 20,
+    "max_neighbors": 3,
+    "ip_limiting": true,
+    "reputation": true,
+    "pow": false
+  },
+  "bootstrap": {
+    "node_id": "998f59e2",
+    "port": 5000,
+    "neighbors": 2,
+    "max_neighbors": 3,
+    "neighbor_list": [
+      "ed37f48b",
+      "82c8750f"
+    ],
+    "connections_by_ip": {
+      "127.0.0.1": 2
+    },
+    "stats": {
+      "uptime_seconds": 27.76,
+      "messages_sent": 0,
+      "messages_received": 7,
+      "connections_established": 2,
+      "connections_rejected": 3,
+      "sybil_detected": 3,
+      "msg_rate": 0.0
+    }
+  },
+  "legitimate_nodes": [
+    {
+      "node_id": "ed37f48b",
+      "port": 5001,
+      "neighbors": 2,
+      "max_neighbors": 3,
+      "neighbor_list": [
+        "82c8750f",
+        "1afe019c"
+      ],
+      "connections_by_ip": {
+        "127.0.0.1": 2
+      },
+      "stats": {
+        "uptime_seconds": 26.76,
+        "messages_sent": 5,
+        "messages_received": 2,
+        "connections_established": 2,
+        "connections_rejected": 0,
+        "sybil_detected": 0,
+        "msg_rate": 0.19
+      }
+    },
+    {
+      "node_id": "82c8750f",
+      "port": 5002,
+      "neighbors": 2,
+      "max_neighbors": 3,
+      "neighbor_list": [
+        "b6134f76",
+        "2f4e26fa"
+      ],
+      "connections_by_ip": {
+        "127.0.0.1": 2
+      },
+      "stats": {
+        "uptime_seconds": 26.56,
+        "messages_sent": 0,
+        "messages_received": 7,
+        "connections_established": 2,
+        "connections_rejected": 0,
+        "sybil_detected": 0,
+        "msg_rate": 0.0
+      }
+    },
+    {
+      "node_id": "7613cae3",
+      "port": 5003,
+      "neighbors": 2,
+      "max_neighbors": 3,
+      "neighbor_list": [
+        "2a640878",
+        "43adde6a"
+      ],
+      "connections_by_ip": {
+        "127.0.0.1": 2
+      },
+      "stats": {
+        "uptime_seconds": 26.36,
+        "messages_sent": 0,
+        "messages_received": 7,
+        "connections_established": 2,
+        "connections_rejected": 5,
+        "sybil_detected": 5,
+        "msg_rate": 0.0
+      }
+    },
+    {
+      "node_id": "66e21b84",
+      "port": 5004,
+      "neighbors": 2,
+      "max_neighbors": 3,
+      "neighbor_list": [
+        "5e1089b2",
+        "babe6e04"
+      ],
+      "connections_by_ip": {
+        "127.0.0.1": 2
+      },
+      "stats": {
+        "uptime_seconds": 26.15,
+        "messages_sent": 0,
+        "messages_received": 2,
+        "connections_established": 2,
+        "connections_rejected": 0,
+        "sybil_detected": 0,
+        "msg_rate": 0.0
+      }
+    },
+    {
+      "node_id": "ed6cc88a",
+      "port": 5005,
+      "neighbors": 2,
+      "max_neighbors": 3,
+      "neighbor_list": [
+        "3f0fe830",
+        "661d4125"
+      ],
+      "connections_by_ip": {
+        "127.0.0.1": 2
+      },
+      "stats": {
+        "uptime_seconds": 25.95,
+        "messages_sent": 0,
+        "messages_received": 8,
+        "connections_established": 2,
+        "connections_rejected": 6,
+        "sybil_detected": 6,
+        "msg_rate": 0.0
+      }
+    }
+  ],
+  "attack_stats": {
+    "total_identities": 20,
+    "successful_connections": 9,
+    "rejected_connections": 11,
+    "success_rate": 45.0
+  },
+  "aggregated": {
+    "avg_neighbors_per_node": 2.0,
+    "total_connections_rejected": 11,
+    "total_sybil_detected": 11,
+    "network_saturation": 66.66666666666666
+  }
+}

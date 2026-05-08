@@ -1,0 +1,47 @@
+2026-05-04 15:22:59 | Node-5005            | INFO     | Nodo inicializado | ID: 3f6d1c3c | localhost:5005
+2026-05-04 15:22:59 | Node-5005            | INFO     | Servidor TCP escuchando en localhost:5005
+2026-05-04 15:23:03 | Node-5005            | ERROR    | ✗ JOIN rechazado: IP_LIMIT_EXCEEDED
+2026-05-04 15:23:17 | Node-5005            | INFO     | ACEPTADO: d240014c | 127.0.0.1:11226 | Vecinos: 1/3
+2026-05-04 15:23:17 | Node-5005            | INFO     | ACEPTADO: 8d79c621 | 127.0.0.1:15000 | Vecinos: 2/3
+2026-05-04 15:23:17 | Node-5005            | WARNING  | RECHAZADO: bbc3f6dc | IP 127.0.0.1 excede límite (2/2)
+2026-05-04 15:23:24 | Node-5005            | INFO     | Deteniendo nodo...
+2026-05-04 15:23:32 | Node-5005            | INFO     | Nodo inicializado | ID: 9d27d2ad | localhost:5005
+2026-05-04 15:23:32 | Node-5005            | INFO     | Servidor TCP escuchando en localhost:5005
+2026-05-04 15:23:36 | Node-5005            | ERROR    | ✗ JOIN rechazado: IP_LIMIT_EXCEEDED
+2026-05-04 15:23:51 | Node-5005            | INFO     | ACEPTADO: fdbf446f | 127.0.0.1:14263 | Vecinos: 1/3
+2026-05-04 15:23:51 | Node-5005            | INFO     | ACEPTADO: 52d77e4c | 127.0.0.1:7236 | Vecinos: 2/3
+2026-05-04 15:23:51 | Node-5005            | WARNING  | RECHAZADO: c3269b5f | IP 127.0.0.1 excede límite (2/2)
+2026-05-04 15:23:51 | Node-5005            | WARNING  | RECHAZADO: 6a9a37e5 | IP 127.0.0.1 excede límite (2/2)
+2026-05-04 15:23:51 | Node-5005            | WARNING  | RECHAZADO: 294f225e | IP 127.0.0.1 excede límite (2/2)
+2026-05-04 15:23:58 | Node-5005            | INFO     | Deteniendo nodo...
+2026-05-08 03:54:02 | Node-5005            | INFO     | Nodo inicializado | ID: 4a48b76e | localhost:5005
+2026-05-08 03:54:02 | Node-5005            | INFO     | Servidor TCP escuchando en localhost:5005
+2026-05-08 03:54:06 | Node-5005            | ERROR    | ✗ JOIN rechazado: IP_LIMIT_EXCEEDED
+2026-05-08 03:54:21 | Node-5005            | INFO     | ACEPTADO: 7c5a5178 | 127.0.0.1:13278 | Vecinos: 1/3
+2026-05-08 03:54:21 | Node-5005            | INFO     | ACEPTADO: 562ffa97 | 127.0.0.1:8741 | Vecinos: 2/3
+2026-05-08 03:54:21 | Node-5005            | WARNING  | RECHAZADO: 85265ab2 | IP 127.0.0.1 excede límite (2/2)
+2026-05-08 03:54:21 | Node-5005            | WARNING  | RECHAZADO: 04d0faf9 | IP 127.0.0.1 excede límite (2/2)
+2026-05-08 03:54:21 | Node-5005            | WARNING  | RECHAZADO: 37dce620 | IP 127.0.0.1 excede límite (2/2)
+2026-05-08 03:54:28 | Node-5005            | INFO     | Deteniendo nodo...
+2026-05-08 03:56:02 | Node-5005            | INFO     | Nodo inicializado | ID: 3f16eae7 | localhost:5005
+2026-05-08 03:56:02 | Node-5005            | INFO     | Servidor TCP escuchando en localhost:5005
+2026-05-08 03:56:06 | Node-5005            | ERROR    | ✗ JOIN rechazado: IP_LIMIT_EXCEEDED
+2026-05-08 03:56:20 | Node-5005            | INFO     | ACEPTADO: f6eb1843 | 127.0.0.1:10995 | Vecinos: 1/3
+2026-05-08 03:56:20 | Node-5005            | INFO     | ACEPTADO: e1cda816 | 127.0.0.1:11993 | Vecinos: 2/3
+2026-05-08 03:56:20 | Node-5005            | WARNING  | RECHAZADO: 71e81b52 | IP 127.0.0.1 excede límite (2/2)
+2026-05-08 03:56:20 | Node-5005            | WARNING  | RECHAZADO: cb74396e | IP 127.0.0.1 excede límite (2/2)
+2026-05-08 03:56:20 | Node-5005            | WARNING  | RECHAZADO: 86a0730b | IP 127.0.0.1 excede límite (2/2)
+2026-05-08 03:56:21 | Node-5005            | WARNING  | RECHAZADO: 68815619 | IP 127.0.0.1 excede límite (2/2)
+2026-05-08 03:56:28 | Node-5005            | INFO     | Deteniendo nodo...
+2026-05-08 03:58:17 | Node-5005            | INFO     | Nodo inicializado | ID: ed6cc88a | localhost:5005
+2026-05-08 03:58:17 | Node-5005            | INFO     | Servidor TCP escuchando en localhost:5005
+2026-05-08 03:58:21 | Node-5005            | ERROR    | ✗ JOIN rechazado: IP_LIMIT_EXCEEDED
+2026-05-08 03:58:35 | Node-5005            | INFO     | ACEPTADO: 3f0fe830 | 127.0.0.1:6023 | Vecinos: 1/3
+2026-05-08 03:58:35 | Node-5005            | INFO     | ACEPTADO: 661d4125 | 127.0.0.1:12366 | Vecinos: 2/3
+2026-05-08 03:58:35 | Node-5005            | WARNING  | RECHAZADO: a3c5dffd | IP 127.0.0.1 excede límite (2/2)
+2026-05-08 03:58:35 | Node-5005            | WARNING  | RECHAZADO: 5c287758 | IP 127.0.0.1 excede límite (2/2)
+2026-05-08 03:58:35 | Node-5005            | WARNING  | RECHAZADO: d08dcbae | IP 127.0.0.1 excede límite (2/2)
+2026-05-08 03:58:35 | Node-5005            | WARNING  | RECHAZADO: 45a87449 | IP 127.0.0.1 excede límite (2/2)
+2026-05-08 03:58:35 | Node-5005            | WARNING  | RECHAZADO: dcadf8d2 | IP 127.0.0.1 excede límite (2/2)
+2026-05-08 03:58:35 | Node-5005            | WARNING  | RECHAZADO: 6698a8dc | IP 127.0.0.1 excede límite (2/2)
+2026-05-08 03:58:42 | Node-5005            | INFO     | Deteniendo nodo...

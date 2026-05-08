@@ -1,0 +1,42 @@
+2026-05-04 15:22:58 | Node-5002            | INFO     | Nodo inicializado | ID: 0782c43d | localhost:5002
+2026-05-04 15:22:58 | Node-5002            | INFO     | Servidor TCP escuchando en localhost:5002
+2026-05-04 15:23:01 | Node-5002            | INFO     | ✓ Unido a red via localhost:5000
+2026-05-04 15:23:01 | Node-5002            | INFO     | Recibidos 2 peers del bootstrap
+2026-05-04 15:23:01 | Node-5002            | INFO     | ✓ Conectado a peer 127.0.0.1:5001
+2026-05-04 15:23:17 | Node-5002            | INFO     | ACEPTADO: 77832217 | 127.0.0.1:7424 | Vecinos: 1/3
+2026-05-04 15:23:17 | Node-5002            | INFO     | ACEPTADO: ed22bd6d | 127.0.0.1:13409 | Vecinos: 2/3
+2026-05-04 15:23:17 | Node-5002            | WARNING  | RECHAZADO: abf63360 | IP 127.0.0.1 excede límite (2/2)
+2026-05-04 15:23:17 | Node-5002            | WARNING  | RECHAZADO: f4837199 | IP 127.0.0.1 excede límite (2/2)
+2026-05-04 15:23:24 | Node-5002            | INFO     | Deteniendo nodo...
+2026-05-04 15:23:31 | Node-5002            | INFO     | Nodo inicializado | ID: d8597232 | localhost:5002
+2026-05-04 15:23:31 | Node-5002            | INFO     | Servidor TCP escuchando en localhost:5002
+2026-05-04 15:23:35 | Node-5002            | INFO     | ✓ Unido a red via localhost:5000
+2026-05-04 15:23:35 | Node-5002            | INFO     | Recibidos 2 peers del bootstrap
+2026-05-04 15:23:35 | Node-5002            | INFO     | ✓ Conectado a peer 127.0.0.1:5001
+2026-05-04 15:23:51 | Node-5002            | INFO     | ACEPTADO: 4a3e9151 | 127.0.0.1:15491 | Vecinos: 1/3
+2026-05-04 15:23:51 | Node-5002            | INFO     | ACEPTADO: cfa14ad5 | 127.0.0.1:11269 | Vecinos: 2/3
+2026-05-04 15:23:51 | Node-5002            | WARNING  | RECHAZADO: ff42efce | IP 127.0.0.1 excede límite (2/2)
+2026-05-04 15:23:58 | Node-5002            | INFO     | Deteniendo nodo...
+2026-05-08 03:54:01 | Node-5002            | INFO     | Nodo inicializado | ID: b80383a0 | localhost:5002
+2026-05-08 03:54:01 | Node-5002            | INFO     | Servidor TCP escuchando en localhost:5002
+2026-05-08 03:54:05 | Node-5002            | INFO     | ✓ Unido a red via localhost:5000
+2026-05-08 03:54:05 | Node-5002            | INFO     | Recibidos 2 peers del bootstrap
+2026-05-08 03:54:05 | Node-5002            | INFO     | ✓ Conectado a peer 127.0.0.1:5001
+2026-05-08 03:54:21 | Node-5002            | INFO     | ACEPTADO: 42f81949 | 127.0.0.1:6986 | Vecinos: 1/3
+2026-05-08 03:54:21 | Node-5002            | INFO     | ACEPTADO: 9318b2c4 | 127.0.0.1:11906 | Vecinos: 2/3
+2026-05-08 03:54:28 | Node-5002            | INFO     | Deteniendo nodo...
+2026-05-08 03:56:01 | Node-5002            | INFO     | Nodo inicializado | ID: fac88f63 | localhost:5002
+2026-05-08 03:56:01 | Node-5002            | INFO     | Servidor TCP escuchando en localhost:5002
+2026-05-08 03:56:04 | Node-5002            | INFO     | ✓ Unido a red via localhost:5000
+2026-05-08 03:56:04 | Node-5002            | INFO     | Recibidos 2 peers del bootstrap
+2026-05-08 03:56:04 | Node-5002            | INFO     | ✓ Conectado a peer 127.0.0.1:5001
+2026-05-08 03:56:20 | Node-5002            | INFO     | ACEPTADO: 0e0d7139 | 127.0.0.1:13333 | Vecinos: 1/3
+2026-05-08 03:56:28 | Node-5002            | INFO     | Deteniendo nodo...
+2026-05-08 03:58:16 | Node-5002            | INFO     | Nodo inicializado | ID: 82c8750f | localhost:5002
+2026-05-08 03:58:16 | Node-5002            | INFO     | Servidor TCP escuchando en localhost:5002
+2026-05-08 03:58:19 | Node-5002            | INFO     | ✓ Unido a red via localhost:5000
+2026-05-08 03:58:19 | Node-5002            | INFO     | Recibidos 2 peers del bootstrap
+2026-05-08 03:58:19 | Node-5002            | INFO     | ✓ Conectado a peer 127.0.0.1:5001
+2026-05-08 03:58:35 | Node-5002            | INFO     | ACEPTADO: b6134f76 | 127.0.0.1:14121 | Vecinos: 1/3
+2026-05-08 03:58:35 | Node-5002            | INFO     | ACEPTADO: 2f4e26fa | 127.0.0.1:9000 | Vecinos: 2/3
+2026-05-08 03:58:42 | Node-5002            | INFO     | Deteniendo nodo...

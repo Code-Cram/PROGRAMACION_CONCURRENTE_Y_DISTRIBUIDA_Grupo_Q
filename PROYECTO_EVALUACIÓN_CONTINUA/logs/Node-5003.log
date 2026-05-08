@@ -1,0 +1,49 @@
+2026-05-04 15:22:58 | Node-5003            | INFO     | Nodo inicializado | ID: 2e95e2b5 | localhost:5003
+2026-05-04 15:22:58 | Node-5003            | INFO     | Servidor TCP escuchando en localhost:5003
+2026-05-04 15:23:02 | Node-5003            | ERROR    | ✗ JOIN rechazado: IP_LIMIT_EXCEEDED
+2026-05-04 15:23:17 | Node-5003            | INFO     | ACEPTADO: 9d485caf | 127.0.0.1:8351 | Vecinos: 1/3
+2026-05-04 15:23:17 | Node-5003            | INFO     | ACEPTADO: 2940e31c | 127.0.0.1:13199 | Vecinos: 2/3
+2026-05-04 15:23:17 | Node-5003            | WARNING  | RECHAZADO: 132d7cbd | IP 127.0.0.1 excede límite (2/2)
+2026-05-04 15:23:17 | Node-5003            | WARNING  | RECHAZADO: e5a5d45f | IP 127.0.0.1 excede límite (2/2)
+2026-05-04 15:23:17 | Node-5003            | WARNING  | RECHAZADO: 013cad6e | IP 127.0.0.1 excede límite (2/2)
+2026-05-04 15:23:17 | Node-5003            | WARNING  | RECHAZADO: 0e3c6284 | IP 127.0.0.1 excede límite (2/2)
+2026-05-04 15:23:17 | Node-5003            | WARNING  | RECHAZADO: 2b3a6b39 | IP 127.0.0.1 excede límite (2/2)
+2026-05-04 15:23:17 | Node-5003            | WARNING  | RECHAZADO: 3d980831 | IP 127.0.0.1 excede límite (2/2)
+2026-05-04 15:23:17 | Node-5003            | WARNING  | RECHAZADO: 457e87b4 | IP 127.0.0.1 excede límite (2/2)
+2026-05-04 15:23:24 | Node-5003            | INFO     | Deteniendo nodo...
+2026-05-04 15:23:32 | Node-5003            | INFO     | Nodo inicializado | ID: 78caaf35 | localhost:5003
+2026-05-04 15:23:32 | Node-5003            | INFO     | Servidor TCP escuchando en localhost:5003
+2026-05-04 15:23:35 | Node-5003            | ERROR    | ✗ JOIN rechazado: IP_LIMIT_EXCEEDED
+2026-05-04 15:23:51 | Node-5003            | INFO     | ACEPTADO: 88e9ff69 | 127.0.0.1:8576 | Vecinos: 1/3
+2026-05-04 15:23:51 | Node-5003            | INFO     | ACEPTADO: 65a974d3 | 127.0.0.1:11872 | Vecinos: 2/3
+2026-05-04 15:23:51 | Node-5003            | WARNING  | RECHAZADO: 8398e359 | IP 127.0.0.1 excede límite (2/2)
+2026-05-04 15:23:51 | Node-5003            | WARNING  | RECHAZADO: 3f886ee8 | IP 127.0.0.1 excede límite (2/2)
+2026-05-04 15:23:51 | Node-5003            | WARNING  | RECHAZADO: 68859ea4 | IP 127.0.0.1 excede límite (2/2)
+2026-05-04 15:23:58 | Node-5003            | INFO     | Deteniendo nodo...
+2026-05-08 03:54:02 | Node-5003            | INFO     | Nodo inicializado | ID: 5cef5594 | localhost:5003
+2026-05-08 03:54:02 | Node-5003            | INFO     | Servidor TCP escuchando en localhost:5003
+2026-05-08 03:54:05 | Node-5003            | ERROR    | ✗ JOIN rechazado: IP_LIMIT_EXCEEDED
+2026-05-08 03:54:21 | Node-5003            | INFO     | ACEPTADO: a411b30a | 127.0.0.1:10063 | Vecinos: 1/3
+2026-05-08 03:54:21 | Node-5003            | INFO     | ACEPTADO: 66abd5e1 | 127.0.0.1:14200 | Vecinos: 2/3
+2026-05-08 03:54:21 | Node-5003            | WARNING  | RECHAZADO: ad84091b | IP 127.0.0.1 excede límite (2/2)
+2026-05-08 03:54:21 | Node-5003            | WARNING  | RECHAZADO: d7253799 | IP 127.0.0.1 excede límite (2/2)
+2026-05-08 03:54:28 | Node-5003            | INFO     | Deteniendo nodo...
+2026-05-08 03:56:01 | Node-5003            | INFO     | Nodo inicializado | ID: a9425522 | localhost:5003
+2026-05-08 03:56:01 | Node-5003            | INFO     | Servidor TCP escuchando en localhost:5003
+2026-05-08 03:56:05 | Node-5003            | ERROR    | ✗ JOIN rechazado: IP_LIMIT_EXCEEDED
+2026-05-08 03:56:20 | Node-5003            | INFO     | ACEPTADO: ef9cbcbf | 127.0.0.1:15667 | Vecinos: 1/3
+2026-05-08 03:56:20 | Node-5003            | INFO     | ACEPTADO: e70dcff6 | 127.0.0.1:10748 | Vecinos: 2/3
+2026-05-08 03:56:21 | Node-5003            | WARNING  | RECHAZADO: 485ff041 | IP 127.0.0.1 excede límite (2/2)
+2026-05-08 03:56:21 | Node-5003            | WARNING  | RECHAZADO: 8036b20b | IP 127.0.0.1 excede límite (2/2)
+2026-05-08 03:56:28 | Node-5003            | INFO     | Deteniendo nodo...
+2026-05-08 03:58:16 | Node-5003            | INFO     | Nodo inicializado | ID: 7613cae3 | localhost:5003
+2026-05-08 03:58:16 | Node-5003            | INFO     | Servidor TCP escuchando en localhost:5003
+2026-05-08 03:58:20 | Node-5003            | ERROR    | ✗ JOIN rechazado: IP_LIMIT_EXCEEDED
+2026-05-08 03:58:35 | Node-5003            | INFO     | ACEPTADO: 2a640878 | 127.0.0.1:8447 | Vecinos: 1/3
+2026-05-08 03:58:35 | Node-5003            | INFO     | ACEPTADO: 43adde6a | 127.0.0.1:9315 | Vecinos: 2/3
+2026-05-08 03:58:35 | Node-5003            | WARNING  | RECHAZADO: d90df066 | IP 127.0.0.1 excede límite (2/2)
+2026-05-08 03:58:35 | Node-5003            | WARNING  | RECHAZADO: 2cf8707e | IP 127.0.0.1 excede límite (2/2)
+2026-05-08 03:58:35 | Node-5003            | WARNING  | RECHAZADO: 728c4b4d | IP 127.0.0.1 excede límite (2/2)
+2026-05-08 03:58:35 | Node-5003            | WARNING  | RECHAZADO: 72cd8033 | IP 127.0.0.1 excede límite (2/2)
+2026-05-08 03:58:35 | Node-5003            | WARNING  | RECHAZADO: bed769d0 | IP 127.0.0.1 excede límite (2/2)
+2026-05-08 03:58:42 | Node-5003            | INFO     | Deteniendo nodo...

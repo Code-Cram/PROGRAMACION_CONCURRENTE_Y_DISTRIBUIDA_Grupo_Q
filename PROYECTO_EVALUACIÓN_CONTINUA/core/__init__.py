@@ -1,0 +1,1 @@
+# Módulo core - Nodos P2P

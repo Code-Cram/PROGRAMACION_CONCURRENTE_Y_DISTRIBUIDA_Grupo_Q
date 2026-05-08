@@ -1,0 +1,40 @@
+2026-05-04 15:22:57 | BOOTSTRAP-5000       | INFO     | Nodo inicializado | ID: cf7f0c5f | localhost:5000
+2026-05-04 15:22:57 | BOOTSTRAP-5000       | INFO     | Servidor TCP escuchando en localhost:5000
+2026-05-04 15:23:01 | BOOTSTRAP-5000       | INFO     | ACEPTADO: da495fd0 | 127.0.0.1:5001 | Vecinos: 1/3
+2026-05-04 15:23:01 | BOOTSTRAP-5000       | INFO     | ACEPTADO: 0782c43d | 127.0.0.1:5002 | Vecinos: 2/3
+2026-05-04 15:23:02 | BOOTSTRAP-5000       | WARNING  | RECHAZADO: 2e95e2b5 | IP 127.0.0.1 excede límite (2/2)
+2026-05-04 15:23:02 | BOOTSTRAP-5000       | WARNING  | RECHAZADO: 6239ed41 | IP 127.0.0.1 excede límite (2/2)
+2026-05-04 15:23:03 | BOOTSTRAP-5000       | WARNING  | RECHAZADO: 3f6d1c3c | IP 127.0.0.1 excede límite (2/2)
+2026-05-04 15:23:24 | BOOTSTRAP-5000       | INFO     | Deteniendo nodo...
+2026-05-04 15:23:30 | BOOTSTRAP-5000       | INFO     | Nodo inicializado | ID: eb1dff45 | localhost:5000
+2026-05-04 15:23:30 | BOOTSTRAP-5000       | INFO     | Servidor TCP escuchando en localhost:5000
+2026-05-04 15:23:34 | BOOTSTRAP-5000       | INFO     | ACEPTADO: 017db4e2 | 127.0.0.1:5001 | Vecinos: 1/3
+2026-05-04 15:23:35 | BOOTSTRAP-5000       | INFO     | ACEPTADO: d8597232 | 127.0.0.1:5002 | Vecinos: 2/3
+2026-05-04 15:23:35 | BOOTSTRAP-5000       | WARNING  | RECHAZADO: 78caaf35 | IP 127.0.0.1 excede límite (2/2)
+2026-05-04 15:23:36 | BOOTSTRAP-5000       | WARNING  | RECHAZADO: 496661c6 | IP 127.0.0.1 excede límite (2/2)
+2026-05-04 15:23:36 | BOOTSTRAP-5000       | WARNING  | RECHAZADO: 9d27d2ad | IP 127.0.0.1 excede límite (2/2)
+2026-05-04 15:23:58 | BOOTSTRAP-5000       | INFO     | Deteniendo nodo...
+2026-05-08 03:54:00 | BOOTSTRAP-5000       | INFO     | Nodo inicializado | ID: a9acd3be | localhost:5000
+2026-05-08 03:54:00 | BOOTSTRAP-5000       | INFO     | Servidor TCP escuchando en localhost:5000
+2026-05-08 03:54:04 | BOOTSTRAP-5000       | INFO     | ACEPTADO: 345cae80 | 127.0.0.1:5001 | Vecinos: 1/3
+2026-05-08 03:54:05 | BOOTSTRAP-5000       | INFO     | ACEPTADO: b80383a0 | 127.0.0.1:5002 | Vecinos: 2/3
+2026-05-08 03:54:05 | BOOTSTRAP-5000       | WARNING  | RECHAZADO: 5cef5594 | IP 127.0.0.1 excede límite (2/2)
+2026-05-08 03:54:06 | BOOTSTRAP-5000       | WARNING  | RECHAZADO: b4e4fb31 | IP 127.0.0.1 excede límite (2/2)
+2026-05-08 03:54:06 | BOOTSTRAP-5000       | WARNING  | RECHAZADO: 4a48b76e | IP 127.0.0.1 excede límite (2/2)
+2026-05-08 03:54:28 | BOOTSTRAP-5000       | INFO     | Deteniendo nodo...
+2026-05-08 03:56:00 | BOOTSTRAP-5000       | INFO     | Nodo inicializado | ID: 00d8bf96 | localhost:5000
+2026-05-08 03:56:00 | BOOTSTRAP-5000       | INFO     | Servidor TCP escuchando en localhost:5000
+2026-05-08 03:56:04 | BOOTSTRAP-5000       | INFO     | ACEPTADO: 0e8883a7 | 127.0.0.1:5001 | Vecinos: 1/3
+2026-05-08 03:56:04 | BOOTSTRAP-5000       | INFO     | ACEPTADO: fac88f63 | 127.0.0.1:5002 | Vecinos: 2/3
+2026-05-08 03:56:05 | BOOTSTRAP-5000       | WARNING  | RECHAZADO: a9425522 | IP 127.0.0.1 excede límite (2/2)
+2026-05-08 03:56:05 | BOOTSTRAP-5000       | WARNING  | RECHAZADO: 6f0869c5 | IP 127.0.0.1 excede límite (2/2)
+2026-05-08 03:56:06 | BOOTSTRAP-5000       | WARNING  | RECHAZADO: 3f16eae7 | IP 127.0.0.1 excede límite (2/2)
+2026-05-08 03:56:28 | BOOTSTRAP-5000       | INFO     | Deteniendo nodo...
+2026-05-08 03:58:15 | BOOTSTRAP-5000       | INFO     | Nodo inicializado | ID: 998f59e2 | localhost:5000
+2026-05-08 03:58:15 | BOOTSTRAP-5000       | INFO     | Servidor TCP escuchando en localhost:5000
+2026-05-08 03:58:19 | BOOTSTRAP-5000       | INFO     | ACEPTADO: ed37f48b | 127.0.0.1:5001 | Vecinos: 1/3
+2026-05-08 03:58:19 | BOOTSTRAP-5000       | INFO     | ACEPTADO: 82c8750f | 127.0.0.1:5002 | Vecinos: 2/3
+2026-05-08 03:58:20 | BOOTSTRAP-5000       | WARNING  | RECHAZADO: 7613cae3 | IP 127.0.0.1 excede límite (2/2)
+2026-05-08 03:58:20 | BOOTSTRAP-5000       | WARNING  | RECHAZADO: 66e21b84 | IP 127.0.0.1 excede límite (2/2)
+2026-05-08 03:58:21 | BOOTSTRAP-5000       | WARNING  | RECHAZADO: ed6cc88a | IP 127.0.0.1 excede límite (2/2)
+2026-05-08 03:58:42 | BOOTSTRAP-5000       | INFO     | Deteniendo nodo...
